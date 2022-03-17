@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "451158421716",
+    "project_id": "bd-chatvideo-2bb58",
+    "storage_bucket": "bd-chatvideo-2bb58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451158421716:android:cf686974c4acaf0763cb41",
+        "android_client_info": {
+          "package_name": "com.cookandroid.bdchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451158421716-l0tnfh4vv1fmfgvj5e5o3klupcotbjm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTS8wHp7Arcot6I57z03Hrr9sGTZWqDac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451158421716-l0tnfh4vv1fmfgvj5e5o3klupcotbjm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

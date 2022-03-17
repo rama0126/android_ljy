@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/drawable/bg_reciver.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/drawable/bg_sender.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/sample_reciever.xml" value="0.25" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/sample_sender.xml" value="0.18697916666666667" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/drawable/bg_et_message.xml" value="0.2135" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/drawable/ic_google.xml" value="0.14" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/layout/activity_chat_detail.xml" value="0.29981884057971014" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/layout/activity_main.xml" value="0.32019927536231885" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/layout/activity_sign_in.xml" value="0.358695652173913" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/layout/activity_sing_up.xml" value="0.25" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/layout/fragment_calls.xml" value="0.29981884057971014" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/layout/fragment_chats.xml" value="0.29981884057971014" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/layout/fragment_status.xml" value="0.29981884057971014" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/layout/sample_show_user.xml" value="0.29981884057971014" />
+        <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/menu/menu.xml" value="0.18645833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
