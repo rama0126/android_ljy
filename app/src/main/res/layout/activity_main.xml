@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
-
+<!--탭 레이아웃-->
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="58dp"
@@ -14,6 +14,7 @@
         android:elevation="12dp"
         app:tabIndicator="@color/white"
         app:tabSelectedTextColor="@color/white"
+        android:textStyle="bold"
         app:tabMaxWidth="0dp"
         app:tabGravity="fill"
         app:tabMode="fixed"

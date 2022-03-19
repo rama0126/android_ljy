@@ -7,7 +7,6 @@
     tools:context=".SignInActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/w1"
     >
 
     <LinearLayout
@@ -21,9 +20,9 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/ic_whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/myung3"
             android:id="@+id/imageView"/>
         <EditText
             android:layout_width="match_parent"
@@ -32,10 +31,10 @@
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
             android:ems="10"
-            android:hint="Email"
+            android:hint="이메일 / Email"
             android:inputType="textEmailAddress"
             android:padding="9dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textColorHint="@color/chatbackground"/>
 
         <EditText
@@ -43,18 +42,18 @@
             android:layout_height="wrap_content"
             android:id="@+id/txtPassword"
             android:ems="10"
-            android:hint="Password"
+            android:hint="비밀번호"
             android:inputType="textPassword"
             android:padding="9dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textColorHint="@color/chatbackground"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/txtClickSignUp"
-            android:text="Click to Sign Up"
-            android:textColor="@color/white"
+            android:text="회원가입"
+            android:textColor="@color/myung2"
             android:layout_gravity="right"
             android:gravity="right"
             android:padding="5dp"
@@ -66,11 +65,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnSignIn"
             android:layout_marginTop="10dp"
-            android:backgroundTint="@color/design_default_color_secondary_variant"
+            android:backgroundTint="@color/myung1"
             android:padding="15dp"
-            android:text="Sign In"
+            android:text="로그인"
             android:textAllCaps="false"
-            app:cornerRadius="8dp"/>
+            app:cornerRadius="8dp"
+            android:textStyle="bold"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -82,45 +82,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnGoogle"
+                android:backgroundTint="@color/lightGrey"
                 android:layout_marginEnd="4dp"
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
-                android:drawableLeft="@drawable/ic_google"
+                android:drawableLeft="@drawable/myungsa1"
                 android:padding="15dp"
-                android:text="Google"
+                android:text="명지대학교 로그인"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                app:backgroundTint="@color/white"
-                app:cornerRadius="8dp"/>
+                app:cornerRadius="8dp"
+                android:textStyle="bold"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnFacebook"
-                android:layout_marginStart="4dp"
-                android:layout_marginLeft="4dp"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/ic_facebook"
-                android:padding="15dp"
-                android:text="Facebook"
-                android:textAllCaps="false"
-                app:backgroundTint="@color/fb_color"
-                app:cornerRadius="8dp"/>
 
 
         </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtSignUpPhone"
-            android:layout_marginTop="15dp"
-            android:text="Sign Up with Phone"
-            android:textColor="@color/white"
-            android:textSize="18sp"/>
-
-
-
 
     </LinearLayout>
 

@@ -38,15 +38,15 @@ public class SingUpActivity extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        //계정 생성시 나오는 다이얼로그
+        // 계정 생성시 나오는 다이얼로그
         progressDialog = new ProgressDialog(SingUpActivity.this);
-        progressDialog.setTitle("계정 생성 중");
+        progressDialog.setTitle("계정 생성 중 ");
         progressDialog.setMessage("계정 생성 완료");
 
         binding.btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(!binding.txtUsername.getText().toString().isEmpty() && !binding.txtStuNum.getText().toString().isEmpty()&& !binding.txtEmail.getText().toString().isEmpty() && !binding.txtPassword.getText().toString().isEmpty())
+                if(!binding.txtUsername.getText().toString().isEmpty() &&!binding.txtStuNum.getText().toString().isEmpty() && !binding.txtEmail.getText().toString().isEmpty() && !binding.txtPassword.getText().toString().isEmpty())
                 {
                     progressDialog.show();
                     mAuth.createUserWithEmailAndPassword(binding.txtEmail.getText().toString(),binding.txtPassword.getText().toString())
@@ -60,7 +60,7 @@ public class SingUpActivity extends AppCompatActivity {
                                 String id = task.getResult().getUser().getUid();
                                 database.getReference().child("Users").child(id).setValue(user);
 
-                                Toast.makeText(SingUpActivity.this, "Sign Up Successful", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SingUpActivity.this, "가입되었습니다.", Toast.LENGTH_SHORT).show();
                             }
                             else
                             {
@@ -71,7 +71,7 @@ public class SingUpActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Toast.makeText(SingUpActivity.this,"Enter Credentials",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SingUpActivity.this,"올바른 값을 입력하세요",Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -85,6 +85,5 @@ public class SingUpActivity extends AppCompatActivity {
 
             }
         });
-
     }
 }

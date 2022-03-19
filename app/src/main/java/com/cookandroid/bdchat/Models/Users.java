@@ -4,12 +4,13 @@ public class Users {
 
     String profilePic,userName,mail,password,userId,lastMessage,status;
     String StuNum;
+
     public Users()
     {
 
     }
 
-    public Users(String profilePic, String userName,String StuNum, String mail, String password, String userId, String lastMessage, String status) {
+    public Users(String profilePic, String userName, String mail, String password, String userId, String lastMessage, String status, String StuNum) {
         this.profilePic = profilePic;
         this.userName = userName;
         this.mail = mail;
@@ -20,11 +21,11 @@ public class Users {
         this.StuNum = StuNum;
     }
 
-    public Users(String userName, String StuNum, String mail, String password) {
+    public Users(String userName,String StuNum, String mail, String password) {
         this.userName = userName;
-        this.StuNum = StuNum;
         this.mail = mail;
         this.password = password;
+        this.StuNum = StuNum;
     }
 
     public String getProfilePic() {
@@ -81,5 +82,13 @@ public class Users {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public String getStuNum() {
+        return StuNum;
+    }
+
+    public void setStuNum(String stuNum) {
+        StuNum = stuNum;
     }
 }

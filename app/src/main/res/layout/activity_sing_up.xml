@@ -20,10 +20,10 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/imageView"
-            android:src="@drawable/ic_whatsapp"/>
+            android:src="@drawable/myung3"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -35,8 +35,9 @@
             android:hint="이름"
             android:inputType="textPersonName"
             android:padding="9dp"
-            android:textColor="@color/myung2"
+            android:textColor="@color/black"
             android:textColorHint="@color/chatbackground"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,18 +47,19 @@
             android:hint="학번"
             android:inputType="number"
             android:padding="9dp"
-            android:textColor="@color/lightGrey"
+            android:textColor="@color/black"
             android:textColorHint="@color/chatbackground"/>
+
       <EditText
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginBottom="10dp"
           android:id="@+id/txtEmail"
           android:ems="10"
-          android:hint="이메일/Email"
+          android:hint="이메일 / Email"
           android:inputType="textEmailAddress"
           android:padding="9dp"
-          android:textColor="@color/lightGrey"
+          android:textColor="@color/black"
           android:textColorHint="@color/chatbackground"/>
 
       <EditText
@@ -68,7 +70,7 @@
           android:hint="비밀번호"
           android:inputType="textPassword"
           android:padding="9dp"
-          android:textColor="@color/lightGrey"
+          android:textColor="@color/black"
           android:textColorHint="@color/chatbackground"/>
 
       <TextView
@@ -89,9 +91,9 @@
           android:padding="15dp"
           android:text="회원가입"
           android:textAllCaps="false"
-          android:textStyle="bold"
           app:backgroundTint="@color/myung1"
-          app:cornerRadius = "8dp"/>
+          app:cornerRadius = "8dp"
+          android:textStyle="bold"/>
 
       <LinearLayout
           android:layout_width="match_parent"
@@ -101,21 +103,21 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnGoogle"
+            android:id="@+id/btnMyung"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:layout_weight="1"
-            android:drawableLeft="@drawable/maru_c"
+            android:drawableLeft="@drawable/myungsa1"
             android:padding="15dp"
-            android:text="Google"
+            android:text="명지대학교 로그인"
             android:textAllCaps="false"
             android:textColor="@color/black"
             app:backgroundTint="@color/white"
-            app:cornerRadius = "8dp"/>
+            app:cornerRadius = "8dp"
+            android:textStyle="bold"/>
 
 
       </LinearLayout>
-
 
     </LinearLayout>
 
