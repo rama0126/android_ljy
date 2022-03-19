@@ -38,14 +38,15 @@ public class SingUpActivity extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
+        //계정 생성시 나오는 다이얼로그
         progressDialog = new ProgressDialog(SingUpActivity.this);
-        progressDialog.setTitle("Creating Account");
-        progressDialog.setMessage("We're creating your account");
+        progressDialog.setTitle("계정 생성 중");
+        progressDialog.setMessage("계정 생성 완료");
 
         binding.btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(!binding.txtUsername.getText().toString().isEmpty() && !binding.txtEmail.getText().toString().isEmpty() && !binding.txtPassword.getText().toString().isEmpty())
+                if(!binding.txtUsername.getText().toString().isEmpty() && !binding.txtStuNum.getText().toString().isEmpty()&& !binding.txtEmail.getText().toString().isEmpty() && !binding.txtPassword.getText().toString().isEmpty())
                 {
                     progressDialog.show();
                     mAuth.createUserWithEmailAndPassword(binding.txtEmail.getText().toString(),binding.txtPassword.getText().toString())
@@ -55,7 +56,7 @@ public class SingUpActivity extends AppCompatActivity {
                             progressDialog.dismiss();
                             if(task.isSuccessful())
                             {
-                                Users user = new Users(binding.txtUsername.getText().toString(),binding.txtEmail.getText().toString(),binding.txtPassword.getText().toString());
+                                Users user = new Users(binding.txtUsername.getText().toString(),binding.txtStuNum.getText().toString(),binding.txtEmail.getText().toString(),binding.txtPassword.getText().toString());
                                 String id = task.getResult().getUser().getUid();
                                 database.getReference().child("Users").child(id).setValue(user);
 

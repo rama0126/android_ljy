@@ -3,10 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1245" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/drawable/about.xml" value="0.1245" />
         <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/drawable/bg_reciver.xml" value="0.1" />
         <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/drawable/bg_sender.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/drawable/ic_facebook.xml" value="0.16" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/drawable/ic_google.xml" value="0.16" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/activity_main.xml" value="0.2477355072463768" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/activity_sign_in.xml" value="0.26614583333333336" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/activity_sing_up.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/fragment_calls.xml" value="0.2477355072463768" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/fragment_chats.xml" value="0.2477355072463768" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/fragment_status.xml" value="0.2477355072463768" />
         <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/sample_reciever.xml" value="0.25" />
         <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/sample_sender.xml" value="0.18697916666666667" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/layout/sample_show_user.xml" value="0.2477355072463768" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/menu/menu.xml" value="0.26614583333333336" />
+        <entry key="..\:/CookAndroid/Project/Android-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1245" />
         <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/drawable/bg_et_message.xml" value="0.2135" />
         <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/drawable/ic_google.xml" value="0.14" />
         <entry key="..\:/CookAndroid/Project/BDChat/app/src/main/res/layout/activity_chat_detail.xml" value="0.29981884057971014" />

@@ -3,13 +3,13 @@ package com.cookandroid.bdchat.Models;
 public class Users {
 
     String profilePic,userName,mail,password,userId,lastMessage,status;
-
+    String StuNum;
     public Users()
     {
 
     }
 
-    public Users(String profilePic, String userName, String mail, String password, String userId, String lastMessage, String status) {
+    public Users(String profilePic, String userName,String StuNum, String mail, String password, String userId, String lastMessage, String status) {
         this.profilePic = profilePic;
         this.userName = userName;
         this.mail = mail;
@@ -17,10 +17,12 @@ public class Users {
         this.userId = userId;
         this.lastMessage = lastMessage;
         this.status = status;
+        this.StuNum = StuNum;
     }
 
-    public Users(String userName, String mail, String password) {
+    public Users(String userName, String StuNum, String mail, String password) {
         this.userName = userName;
+        this.StuNum = StuNum;
         this.mail = mail;
         this.password = password;
     }
